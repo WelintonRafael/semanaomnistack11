@@ -1,0 +1,66 @@
+.new-casos{
+
+  
+    width: 100%;
+    max-width: 1120px;
+    height: 100 vh;
+    margin: 0 auto; 
+    background:#f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.new-casos .contet{
+width: 100%;
+padding: 96px;
+
+background:#f0f0f5;
+box-shadow: 0 0 100px rgba(0,0,0,0.1);
+border-radius: 8px;
+
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.new-casos .contet section{
+
+     width: 100%;
+     max-width: 380px;
+}
+.new-casos .contet section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+
+
+
+}
+.new-casos .contet section p{
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+
+}
+.new-casos .contet form{
+    width: 100%;
+    max-width: 450px;
+
+}
+.new-casos .contet form input{
+
+    margin-top:  8px;
+}
+.new-casos .contet form .input-group{
+
+    display: flex;
+}
+.new-casos .contet form .input-group input + input{
+
+    margin-left: 8px;
+}
+.new-casos .contet form textarea{
+
+    margin-top:  8px;
+}

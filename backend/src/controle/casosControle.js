@@ -47,7 +47,7 @@ const [id] = await conexao('casos').insert({
 return response.json({id});
 
 },
-async delete(require , response){
+async delete(request , response){
 
     const {id} = request.params;
     const ong_id = request.headers.authorization;
